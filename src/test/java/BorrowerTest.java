@@ -26,4 +26,9 @@ public class BorrowerTest {
         assertEquals("Jamie", borrower.getName());
     }
 
+    @Test public void canSetName(){
+        borrower.setName("Nas");
+        assertEquals("Nas", borrower.getName());
+    }
+
 }

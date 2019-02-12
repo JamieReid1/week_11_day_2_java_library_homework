@@ -13,4 +13,8 @@ public class Borrower {
         return this.name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
 }
