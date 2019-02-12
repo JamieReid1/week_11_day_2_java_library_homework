@@ -1,4 +1,7 @@
 import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 
 public class BookTest {
@@ -8,11 +11,14 @@ public class BookTest {
     @Before
     public void before(){
 
-        book = new Book();
+        book = new Book("Waylander");
 
     }
 
 
-    
+    @Test
+    public void canGetTitle(){
+        assertEquals("Waylander", book.getTitle());
+    }
 
 }
