@@ -39,12 +39,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2472" />
+          <entry key="java" value="2710" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2472" />
+          <entry key="JAVA" value="2710" />
         </counts>
       </usages-collector>
     </session>
@@ -72,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="494">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
             </state>
           </provider>
         </entry>
@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state relative-caret-position="464">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -396,8 +396,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Book.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Library.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LibraryTest.java" />
       </list>
     </option>
   </component>
@@ -447,7 +447,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549999621353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550001387529" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -461,15 +461,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.canSetBookCapacity">
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Library_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LibraryTest.canCheckStockAtCapacity">
     <configuration name="LibraryTest.canAddBookToBookCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library_test" />
       <option name="PACKAGE_NAME" value="" />
@@ -480,21 +472,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.canSetBookCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.canCheckFullStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="canSetBookCapacity" />
+      <option name="METHOD_NAME" value="canCheckFullStock" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.hasABookCollectionStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.canCheckStockAtCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="hasABookCollectionStartsEmpty" />
+      <option name="METHOD_NAME" value="canCheckStockAtCapacity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.canSetBookCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
+      <option name="METHOD_NAME" value="canSetBookCapacity" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -511,19 +513,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookTest" />
-      <item itemvalue="JUnit.LibraryTest.hasABookCollectionStartsEmpty" />
       <item itemvalue="JUnit.LibraryTest.canAddBookToBookCollection" />
       <item itemvalue="JUnit.LibraryTest.hasCapacity" />
       <item itemvalue="JUnit.LibraryTest.canSetBookCapacity" />
+      <item itemvalue="JUnit.LibraryTest.canCheckFullStock" />
+      <item itemvalue="JUnit.LibraryTest.canCheckStockAtCapacity" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LibraryTest.canCheckStockAtCapacity" />
+        <item itemvalue="JUnit.LibraryTest.canCheckFullStock" />
         <item itemvalue="JUnit.LibraryTest.canSetBookCapacity" />
         <item itemvalue="JUnit.LibraryTest.hasCapacity" />
         <item itemvalue="JUnit.LibraryTest.canAddBookToBookCollection" />
-        <item itemvalue="JUnit.LibraryTest.hasABookCollectionStartsEmpty" />
-        <item itemvalue="JUnit.BookTest" />
       </list>
     </recent_temporary>
   </component>
@@ -541,12 +543,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_canSetTitle - 2019.02.12 at 16h 28m 46s.xml">
-      <configuration name="BookTest.canSetTitle" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookTest_canGetAuthor - 2019.02.12 at 16h 38m 46s.xml">
-      <configuration name="BookTest.canGetAuthor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookTest - 2019.02.12 at 16h 38m 51s.xml">
       <configuration name="BookTest" configurationId="JUnit" />
     </history-entry>
@@ -570,6 +566,12 @@
     </history-entry>
     <history-entry file="LibraryTest_hasCapacity - 2019.02.12 at 19h 22m 56s.xml">
       <configuration name="LibraryTest.hasCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_canSetBookCapacity - 2019.02.12 at 19h 27m 04s.xml">
+      <configuration name="LibraryTest.canSetBookCapacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_canCheckFullStock - 2019.02.12 at 19h 51m 31s.xml">
+      <configuration name="LibraryTest.canCheckFullStock" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -626,15 +628,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        <state relative-caret-position="464">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        <state relative-caret-position="494">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
         </state>
       </provider>
     </entry>

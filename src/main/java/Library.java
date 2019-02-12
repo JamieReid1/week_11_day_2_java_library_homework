@@ -29,4 +29,12 @@ public class Library {
         this.bookCapacity = capacity;
     }
 
+    public boolean stockAtCapacity(){
+        if (bookCollectionCount() == getBookCapacity()){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
 }

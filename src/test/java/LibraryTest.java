@@ -51,4 +51,14 @@ public class LibraryTest {
         assertEquals(2, library.getBookCapacity());
     }
 
+    @Test
+    public void canCheckStockAtCapacity(){
+        library.setBookCapacity(2);
+        assertEquals(2, library.getBookCapacity());
+        library.addBook(book1);
+        library.addBook(book2);
+        assertEquals(2, library.bookCollectionCount());
+        assertEquals(true, library.stockAtCapacity());
+    }
+
 }
