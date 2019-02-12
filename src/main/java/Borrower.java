@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+
 public class Borrower {
 
     private String name;
@@ -23,6 +24,11 @@ public class Borrower {
 
     public int bookCaseCount(){
         return this.bookCase.size();
+    }
+
+    public void checkOutBook(Book book, Library library){
+        this.bookCase.add(book);
+        library.removeBook(book);
     }
 
 }

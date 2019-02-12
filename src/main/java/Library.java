@@ -23,6 +23,10 @@ public class Library {
         }
     }
 
+    public void removeBook(Book book){
+        this.bookCollection.remove(book);
+    }
+
     public int getBookCapacity(){
         return this.bookCapacity;
     }

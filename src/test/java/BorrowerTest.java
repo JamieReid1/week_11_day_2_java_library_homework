@@ -36,4 +36,14 @@ public class BorrowerTest {
         assertEquals(0, borrower.bookCaseCount());
     }
 
+    @Test
+    public void canCheckOutBookFromLibrary(){
+        library.addBook(book1);
+        library.addBook(book2);
+        assertEquals(2, library.bookCollectionCount());
+        borrower.checkOutBook(book1, library);
+        assertEquals(1, library.bookCollectionCount());
+        assertEquals(1, borrower.bookCaseCount());
+    }
+
 }
