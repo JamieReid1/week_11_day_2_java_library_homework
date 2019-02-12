@@ -464,7 +464,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550003116567" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550004095366" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -478,11 +478,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.BorrowerTest.canGetName">
     <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Library_test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowerTest.canGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library_test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="canGetName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -515,30 +525,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.canSetBookCapacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Library_test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="canSetBookCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.LibraryTest.canSetBookCapacity" />
       <item itemvalue="JUnit.LibraryTest.canCheckFullStock" />
       <item itemvalue="JUnit.LibraryTest.canCheckStockAtCapacity" />
       <item itemvalue="JUnit.LibraryTest" />
       <item itemvalue="JUnit.BookTest" />
+      <item itemvalue="JUnit.BorrowerTest.canGetName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BorrowerTest.canGetName" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="JUnit.LibraryTest.canCheckStockAtCapacity" />
         <item itemvalue="JUnit.LibraryTest.canCheckFullStock" />
-        <item itemvalue="JUnit.LibraryTest.canSetBookCapacity" />
       </list>
     </recent_temporary>
   </component>
