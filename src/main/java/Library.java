@@ -25,4 +25,8 @@ public class Library {
         return this.bookCapacity;
     }
 
+    public void setBookCapacity(int capacity){
+        this.bookCapacity = capacity;
+    }
+
 }

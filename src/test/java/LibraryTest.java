@@ -41,8 +41,14 @@ public class LibraryTest {
     }
 
     @Test
-    public void hasCapacity(){
+    public void canGetBookCapacity(){
         assertEquals(1, library.getBookCapacity());
+    }
+
+    @Test
+    public void canSetBookCapacity(){
+        library.setBookCapacity(2);
+        assertEquals(2, library.getBookCapacity());
     }
 
 }
