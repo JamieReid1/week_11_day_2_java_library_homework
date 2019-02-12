@@ -61,4 +61,11 @@ public class LibraryTest {
         assertEquals(true, library.stockAtCapacity());
     }
 
+    @Test
+    public void canOnlyAddBookIfNotAtCapacity(){
+        library.addBook(book1);
+        library.addBook(book2);
+        assertEquals(1, library.bookCollectionCount());
+    }
+
 }

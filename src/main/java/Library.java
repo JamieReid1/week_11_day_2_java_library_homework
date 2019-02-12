@@ -18,7 +18,9 @@ public class Library {
     }
 
     public void addBook(Book book){
-        this.bookCollection.add(book);
+        if (!stockAtCapacity()) {
+            this.bookCollection.add(book);
+        }
     }
 
     public int getBookCapacity(){
@@ -30,7 +32,7 @@ public class Library {
     }
 
     public boolean stockAtCapacity(){
-        if (bookCollectionCount() == getBookCapacity()){
+        if (bookCollectionCount() >= getBookCapacity()){
             return true;
         } else {
             return false;
