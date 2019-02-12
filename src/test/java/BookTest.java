@@ -11,7 +11,7 @@ public class BookTest {
     @Before
     public void before(){
 
-        book = new Book("Waylander");
+        book = new Book("Waylander", "David Gemmell");
 
     }
 
@@ -25,6 +25,11 @@ public class BookTest {
     public void canSetTitle(){
         book.setTitle("Waylander 2");
         assertEquals("Waylander 2", book.getTitle());
+    }
+
+    @Test
+    public void canGetAuthor(){
+        assertEquals("David Gemmell", book.getAuthor());
     }
 
 }
