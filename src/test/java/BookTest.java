@@ -32,4 +32,11 @@ public class BookTest {
         assertEquals("David Gemmell", book.getAuthor());
     }
 
+    @Test
+    public void canSetAuthor(){
+        book.setTitle("The Ill Made Knight");
+        book.setAuthor("Christian Cameron");
+        assertEquals("Christian Cameron", book.getAuthor());
+    }
+
 }
