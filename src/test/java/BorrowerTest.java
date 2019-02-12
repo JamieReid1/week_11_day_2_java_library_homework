@@ -31,4 +31,9 @@ public class BorrowerTest {
         assertEquals("Nas", borrower.getName());
     }
 
+    @Test
+    public void hasEmptyBookCase(){
+        assertEquals(0, borrower.bookCaseCount());
+    }
+
 }
