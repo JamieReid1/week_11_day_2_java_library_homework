@@ -21,4 +21,10 @@ public class BookTest {
         assertEquals("Waylander", book.getTitle());
     }
 
+    @Test
+    public void canSetTitle(){
+        book.setTitle("Waylander 2");
+        assertEquals("Waylander 2", book.getTitle());
+    }
+
 }
