@@ -44,4 +44,11 @@ public class BookTest {
         assertEquals("Fantasy Fiction",  book.getGenre());
     }
 
+    @Test
+    public void canSetGenre(){
+        book.setTitle("The Ill Made Knight");
+        book.setGenre("Medieval Fiction");
+        assertEquals("Medieval Fiction", book.getGenre());
+    }
+
 }
