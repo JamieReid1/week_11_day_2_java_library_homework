@@ -11,7 +11,7 @@ public class BookTest {
     @Before
     public void before(){
 
-        book = new Book("Waylander", "David Gemmell");
+        book = new Book("Waylander", "David Gemmell", "Fantasy Fiction");
 
     }
 
@@ -37,6 +37,11 @@ public class BookTest {
         book.setTitle("The Ill Made Knight");
         book.setAuthor("Christian Cameron");
         assertEquals("Christian Cameron", book.getAuthor());
+    }
+
+    @Test
+    public void canGetGenre(){
+        assertEquals("Fantasy Fiction",  book.getGenre());
     }
 
 }
