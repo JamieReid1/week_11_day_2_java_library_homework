@@ -15,4 +15,8 @@ public class Library {
         return this.bookCollection.size();
     }
 
+    public void addBook(Book book){
+        this.bookCollection.add(book);
+    }
+
 }
