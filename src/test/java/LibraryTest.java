@@ -16,7 +16,7 @@ public class LibraryTest {
     @Before
     public void before(){
 
-        library = new Library();
+        library = new Library(1);
         books = new ArrayList<>();
 
         book1 = new Book("Waylander", "David Gemmell", "Fantasy Fiction");
@@ -38,6 +38,11 @@ public class LibraryTest {
     public void canAddBookToBookCollection(){
         library.addBook(book1);
         assertEquals(1, library.bookCollectionCount());
+    }
+
+    @Test
+    public void hasCapacity(){
+        assertEquals(1, library.getBookCapacity());
     }
 
 }
